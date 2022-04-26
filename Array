@@ -1,0 +1,19 @@
+#NEGATIVE AIR TEMPERATURE
+
+def negative(temperatures):
+    N = len(temperatures)
+    days = 0
+    for i in xrange(N):
+        if temperatures[i] < 0:
+            days += 1
+    return days
+
+
+#NEGATIVE AIR TEMPERATURE (Simplified)
+
+def negative(temperatures):
+    days = 0
+    for t in temperatures:
+        if t < 0:
+            days += 1
+    return days
