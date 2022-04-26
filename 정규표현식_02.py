@@ -19,3 +19,20 @@ m = p.finditer('life is too short')
 print(m)
 
 """
+
+"""
+
+m = p.match('python')
+print(m.group())
+#python 이 나옴
+
+print(m.start())
+#0 첫시작 스타트의 인덱스 0
+
+print(m.end())
+#6 마지막 끝자리 인덱스 6
+
+print(m.span())
+#(0, 6) 튜플형태로 리턴
+
+"""
