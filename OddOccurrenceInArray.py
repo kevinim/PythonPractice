@@ -32,10 +32,6 @@ all but one of the values in A occur an even number of times.
 """
 
 
-# you can write to stdout for debugging purposes, e.g.
-# print("this is a debug message")
-
-
 
 def solution(A):
     if len(A) == 1:
